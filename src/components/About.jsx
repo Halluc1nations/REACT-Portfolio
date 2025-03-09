@@ -5,7 +5,7 @@ function About() {
   return (
     <section className="text-center p-6">
       <img
-        src={profilePic}
+        src={profilePic} width={250} height={250}
         alt="Developer"
         className="w-32 h-32 mx-auto rounded-full shadow-lg"
       />
