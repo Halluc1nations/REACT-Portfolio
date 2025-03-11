@@ -1,0 +1,165 @@
+/* 🌟 General Styles */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 🔹 Navbar */
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffc107 !important; /* Yellow hover effect */
+  }
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #ffc107 !important; /* Highlight active page */
+  }
+  
+  /* 🔹 Page Content */
+  .container {
+    max-width: 1100px;
+  }
+  
+  .text-yellow {
+    color: #ffc107; /* Yellow text color */
+  }
+
+  /* 📸 About Me Section */
+  .about-section {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .about-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #343a40; /* Dark border */
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 1rem;
+  }
+  
+  /* 🖼 Portfolio Section */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .portfolio-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .portfolio-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .portfolio-item h3 {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* 📩 Contact Form */
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 📜 Resume Section */
+  .resume-section {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .resume-section a {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .resume-section a:hover {
+    background: #0056b3;
+  }
+  
+  /* 📌 Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
+  footer a {
+    color: #ffc107;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: white;
+  }
+  
