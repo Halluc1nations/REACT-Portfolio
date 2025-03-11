@@ -1,11 +1,11 @@
 import React from "react";
 const projects = [
-  { title: "Project 1", live: "#", repo: "#" },
-  { title: "Project 2", live: "#", repo: "#" },
-  { title: "Project 3", live: "#", repo: "#" },
-  { title: "Project 4", live: "#", repo: "#" },
-  { title: "Project 5", live: "#", repo: "#" },
-  { title: "Project 6", live: "#", repo: "#" },
+  { title: "README generator", live: "#", repo: "https://github.com/Halluc1nations/README-Generator" },
+  { title: "Vehicle generator", live: "#", repo: "https://github.com/Halluc1nations/Module-8-Vehicle-Generator" },
+  { title: "Cost splitting calculator", live: "#", repo: "https://github.com/Halluc1nations/Project-1-Group-5 " },
+  { title: "WeatherApp", live: "#", repo: "https://github.com/Halluc1nations/WeatherApp" },
+  { title: "Employee Tracker", live: "#", repo: "https://github.com/Halluc1nations/Employee_Tracker" },
+  { title: "Prework Study Guide", live: "#", repo: "https://github.com/Halluc1nations/prework-study-guide" },
 ];
 
 function Portfolio() {

@@ -11,8 +11,11 @@ function About() {
       />
       <h2 className="text-xl font-semibold mt-4">About Me</h2>
       <p className="mt-2 text-gray-600">
-        I am a new full-stack developer specializing in modern JavaScript
-        frameworks, React, and backend technologies.
+      I am an MBA holder with a strong passion for technology and problem-solving. Recently, I earned a Full-Stack Development Certificate, equipping me with expertise in HTML, CSS, JavaScript, Node.js, TypeScript, PostgreSQL, and React.
+
+With a unique blend of business acumen and technical proficiency, I am eager to apply my skills in an entry-level software development role. I thrive in collaborative environments, enjoy building user-friendly applications, and am committed to continuous learning.
+
+I am excited to contribute to a dynamic team where I can grow as a developer while leveraging my analytical and strategic thinking skills from my MBA background.
       </p>
     </section>
   );

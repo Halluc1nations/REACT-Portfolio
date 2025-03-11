@@ -6,7 +6,7 @@ function Resume() {
       <h2 className="text-xl font-semibold">Resume</h2>
       <p>
         Download my resume:{" "}
-        <a href="/resume.pdf" className="text-blue-500">
+        <a href="C:\Users\Hallu\bootcamp\REACT-Portfolio\assets\Blaine's 2025 CVS Resume-UPDATE.docx" className="text-blue-500">
           Click here
         </a>
       </p>
@@ -14,7 +14,7 @@ function Resume() {
       <ul className="list-disc ml-6 mt-2">
         <li>JavaScript, React, Node.js</li>
         <li>Express, PostgreSQL</li>
-        <li>CSS, Tailwind, Bootstrap</li>
+        <li>CSS, HTML, Bootstrap</li>
       </ul>
     </section>
   );
