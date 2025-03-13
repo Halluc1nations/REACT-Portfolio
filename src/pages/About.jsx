@@ -4,11 +4,12 @@ import profilePic from "../../assets/profile.jpg";
 function About() {
   return (
     <section className="text-center p-6">
+      <div className="profilePic">
       <img
-        src={profilePic} width={250} height={250}
+        src={profilePic} 
         alt="Developer"
-        className="w-32 h-32 mx-auto rounded-full shadow-lg"
       />
+      </div>
       <h2 className="text-xl font-semibold mt-4">About Me</h2>
       <p className="mt-2 text-gray-600">
       I am an MBA holder with a strong passion for technology and problem-solving. Recently, I earned a Full-Stack Development Certificate, equipping me with expertise in HTML, CSS, JavaScript, Node.js, TypeScript, PostgreSQL, and React.

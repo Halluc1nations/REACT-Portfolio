@@ -1,19 +1,31 @@
+:root{
+    --bs-link-color-rgb:255, 193, 7;
+    --bs-color-primary: rgb(255, 193, 7);
+}
+
+
+
 /* 🌟 General Styles */
 body {
     font-family: "Arial", sans-serif;
     background-color: #f8f9fa; /* Light gray background */
     margin: 0;
     padding: 0;
+    --bs-link-color-rgb: 0,50,255;
   }
   
   /* 🔹 Navbar */
   .navbar {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #343a40; /* Dark background */
+    
   }
   
   .navbar-brand {
-    font-size: 1.5rem;
+    color: white !important;
+    font-size: 1.8rem;
     font-weight: bold;
+    font-family: "Courier New", monospace;
   }
   
   .navbar-nav .nav-link {
@@ -25,21 +37,27 @@ body {
     color: #ffc107 !important; /* Yellow hover effect */
   }
   
-  .navbar-nav .nav-link.active {
-    font-weight: bold;
+  nav a.active {
     color: #ffc107 !important; /* Highlight active page */
   }
+  
+
   
   /* 🔹 Page Content */
   .container {
     max-width: 1100px;
   }
   
-  .text-yellow {
-    color: #ffc107; /* Yellow text color */
-  }
-
+ 
   /* 📸 About Me Section */
+  .ProfilePic{
+    max-width: 250px;
+    max-height: 250px;
+    /*min-width: 5rem;*/
+    border-radius: 16px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
   .about-section {
     text-align: center;
     padding: 2rem;
@@ -59,6 +77,20 @@ body {
   }
   
   /* 🖼 Portfolio Section */
+
+.Image-Wrapper {
+    max-width: 40rem;
+    min-width: 10rem;border-radius: 16px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+img {
+    width: 50%;
+    border-radius: 16px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
   .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -143,6 +175,14 @@ body {
     background: #0056b3;
   }
   
+header {
+    background-color: #343a40;
+    color: white;
+    /*text-align: center;*/
+    padding: 1rem 0;
+  }
+
+
   /* 📌 Footer */
   footer {
     background-color: #343a40;
