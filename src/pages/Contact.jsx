@@ -1,7 +1,11 @@
 import { useState } from "react";
 
 function Contact() {
-  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
   const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
@@ -53,7 +57,9 @@ function Contact() {
         ></textarea>
         {errors.message && <p className="text-red-500">{errors.message}</p>}
 
-        <button className="bg-blue-500 text-white px-4 py-2 rounded">Submit</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded">
+          Submit
+        </button>
       </form>
     </section>
   );

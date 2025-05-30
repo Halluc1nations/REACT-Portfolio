@@ -1,19 +1,13 @@
-import { useState } from "react";
-import { Outlet } from 'react-router-dom';
-import Header from "./components/Header.jsx";
+import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Navigation from "./components/Navigation.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
-
-
- 
   return (
     <div className="d-flex flex-column min-vh-100">
-      {/* <Header /> */}
-      <Navigation />
+      <Navbar />
       <main className="container flex-grow-1 py-4">
         <Outlet />
       </main>
@@ -23,6 +17,3 @@ function App() {
 }
 
 export default App;
-
-
-
